@@ -21,10 +21,16 @@ h5,
 h6,
 a {
   font-family: "Raleway", sans-serif;
+  color: var(--white);
+}
+li {
+  list-style: none;
+  text-decoration: none;
 }
 
 p {
   font-size: 14px;
+  color: var(--white);
 }
 
 body {
@@ -39,7 +45,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1.6rem;
+  border: 2px solid red;
 }
 .nav-bar .nav-links ul {
   display: flex;
+}
+
+.container {
+  border: 2px solid greenyellow;
 }
