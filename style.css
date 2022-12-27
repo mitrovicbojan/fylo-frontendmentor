@@ -47,10 +47,24 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 1.6rem;
-  border: 2px solid red;
+  padding: 1rem;
 }
 .nav-bar .nav-links ul {
   display: flex;
+}
+.nav-bar .nav-links ul li {
+  margin-left: 1rem;
+}
+
+.nav-bar .nav-links ul li a {
+  color: var(--white);
+  cursor: pointer;
+}
+.nav-bar .nav-links ul li:hover {
+  text-decoration: underline;
+}
+.nav-bar .nav-links ul li a:hover {
+  font-weight: 700;
 }
 
 .container {
