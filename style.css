@@ -69,4 +69,8 @@ body {
 
 .container {
   border: 2px solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
