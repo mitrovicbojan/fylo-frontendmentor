@@ -38,7 +38,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  background-color: var(--blue-back);
+  background-color: var(--blue-intro);
   /*Weights: 400, 700*/
 }
 .nav-bar {
