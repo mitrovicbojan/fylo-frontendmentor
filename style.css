@@ -74,3 +74,22 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+.features {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.features .container2 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.features .container2 .feature-description {
+  border: 2px solid red;
+  width: 350px;
+
+  margin-bottom: 2rem;
+}
