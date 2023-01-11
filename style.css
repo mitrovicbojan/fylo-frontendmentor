@@ -85,11 +85,12 @@ body {
   justify-content: center;
   max-width: 100%;
   flex-wrap: wrap;
+  padding: 5rem;
 }
 
 .features .container2 .feature-description {
   border: 2px solid red;
-  width: 350px;
-
+  width: 550px;
+  margin-left: 2rem;
   margin-bottom: 2rem;
 }
