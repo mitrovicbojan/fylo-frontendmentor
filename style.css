@@ -97,3 +97,22 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+.about {
+  display: flex;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img-container {
+  width: 550px;
+  border: 2px solid green;
+  margin: 1rem;
+  padding: 1rem;
+}
+.about-container {
+  width: 550px;
+  border: 2px solid pink;
+  margin: 5rem;
+}
