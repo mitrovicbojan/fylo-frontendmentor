@@ -116,3 +116,8 @@ body {
   border: 2px solid pink;
   margin: 5rem;
 }
+
+.arrow-icon {
+  background-color: var(--cyan);
+  border-radius: 50%;
+}
