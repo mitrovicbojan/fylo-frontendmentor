@@ -267,6 +267,13 @@ span {
   font-size: 12px;
 }
 
+.sign-up {
+  width: 60%;
+  height: 35vh;
+  margin: auto;
+  background-color: var(--blue-testimonials);
+}
+
 @media screen and (max-width: 375px) {
   nav {
     width: 90%;
