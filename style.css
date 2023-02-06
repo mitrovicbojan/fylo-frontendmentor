@@ -178,8 +178,18 @@ nav {
 }
 
 .about-description a {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--cyan);
+  border-bottom: 1px solid var(--cyan);
+}
+
+.about-description a svg {
+  fill: var(--cyan);
+}
+.about-description a:hover {
+  color: var(--white);
+  fill: var(--white);
+  border-bottom: 1px solid var(--white);
 }
 
 .testimonials {
@@ -191,6 +201,14 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   position: relative;
+}
+
+.testimonials::after {
+  content: url(/images/bg-quotes.png);
+  position: absolute;
+  top: 160px;
+  left: -10px;
+  z-index: -1;
 }
 .cards {
   width: 385px;
@@ -311,10 +329,28 @@ span {
     margin: auto;
   }
   .about {
-    margin-top: 0;
+    margin-top: -100px;
   }
   .prodactive-img {
     width: 300px;
     height: auto;
+  }
+
+  .testimonials {
+    width: 90%;
+    min-height: 100vh;
+    margin: 100px auto 0;
+  }
+  .testimonials::after {
+    top: -40px;
+    left: 55;
+  }
+  .cards {
+    width: 350px;
+    height: 230px;
+    margin-bottom: 25px;
+  }
+  .testimonial-description {
+    width: 300px;
   }
 }
