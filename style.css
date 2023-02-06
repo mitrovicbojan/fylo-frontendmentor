@@ -5,7 +5,7 @@
   --blue-intro: hsl(217, 28%, 15%); /*intro and email sign up background */
   --blue-back: hsl(218, 28%, 13%); /*main background */
   --blue-footer: hsl(216, 53%, 9%); /*footer*/
-  --blue-testimonials: hsl(219, 30%, 18%); /*testimonials*/
+  --blue-testimonials: hsl(219, 40%, 20%); /*testimonials*/
   --cyan: hsl(176, 68%, 64%); /*inside call-to-action */
   --blue: hsl(198, 60%, 50%); /*inside call-to-action */
   --light-red: hsl(0, 100%, 63%); /*error*/
@@ -117,7 +117,7 @@ nav {
 .services-page {
   width: 100%;
   margin: auto;
-  background: var(--blue-back);
+  background: #181f2b;
   position: relative;
   top: -210px;
   z-index: -10;
@@ -180,6 +180,73 @@ nav {
 .about-description a {
   text-decoration: underline;
   color: var(--cyan);
+}
+
+.testimonials {
+  width: 90%;
+  min-height: 70vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+.cards {
+  width: 385px;
+  height: 200px;
+  background: var(--blue-testimonials);
+  padding: 25px 15px;
+  box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
+  border-radius: 5px;
+}
+.testimonial-description {
+  width: 345px;
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+.testimonial-description p {
+  color: var(--white);
+}
+.profile-container {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.profile-card-1 {
+  width: 50px;
+  height: 50px;
+  background: url(/images/profile-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.profile-card-2 {
+  width: 50px;
+  height: 50px;
+  background: url(/images/profile-2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.profile-card-3 {
+  width: 50px;
+  height: 50px;
+  background: url(/images/profile-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+span {
+  color: var(--white);
+  font-size: 12px;
 }
 
 @media screen and (max-width: 375px) {
