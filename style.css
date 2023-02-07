@@ -272,8 +272,56 @@ span {
   height: 35vh;
   margin: auto;
   background-color: var(--blue-testimonials);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+  box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
 }
 
+.sign-up-description {
+  margin: auto;
+  width: 60%;
+}
+.sign-up-title {
+  margin-bottom: 25px;
+}
+.sign-up-description p {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.email {
+  width: 500px;
+  padding: 12px 20px;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  margin-right: 25px;
+}
+.submit-btn {
+  width: 250px;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  background: var(--cyan);
+  color: var(--white);
+  cursor: pointer;
+}
 @media screen and (max-width: 375px) {
   nav {
     width: 90%;
@@ -359,5 +407,32 @@ span {
   }
   .testimonial-description {
     width: 300px;
+  }
+
+  .sign-up {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    padding: auto;
+  }
+  .sign-up-description {
+    width: 100%;
+  }
+  .sign-up-description p {
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+  }
+
+  .sign-up-description h1 {
+    font-size: 1.6rem;
+  }
+  .email {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .submit-btn {
+    width: 100%;
   }
 }
