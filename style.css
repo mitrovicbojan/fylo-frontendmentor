@@ -358,6 +358,25 @@ footer .logo {
   margin-right: 25px;
 }
 
+.fa-brands {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+.fa-brands:hover {
+  color: var(--cyan);
+  border: 1px solid var(--cyan);
+}
+
+.contact-us-links li a {
+  text-decoration: none;
+}
+
+.contact-us-links li a:hover {
+  font-weight: 700;
+}
+
 @media screen and (max-width: 375px) {
   nav {
     width: 90%;
