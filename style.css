@@ -281,6 +281,7 @@ span {
   padding: 20px;
   z-index: 1;
   position: relative;
+  top: 110px;
   box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
   -webkit-box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.47);
@@ -333,8 +334,8 @@ footer {
 
 footer .logo {
   position: relative;
-  top: 150px;
-  left: 60px;
+  top: 180px;
+  left: 90px;
 }
 
 .footer-container {
@@ -342,6 +343,8 @@ footer .logo {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 50px;
 }
 
 .location {
@@ -369,12 +372,15 @@ footer .logo {
   border: 1px solid var(--cyan);
 }
 
+.contact-us-links li {
+  line-height: 2rem;
+}
 .contact-us-links li a {
   text-decoration: none;
 }
 
 .contact-us-links li a:hover {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 375px) {
