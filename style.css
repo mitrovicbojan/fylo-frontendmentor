@@ -303,8 +303,20 @@ span {
 form {
   margin-top: 10px;
   margin-bottom: 25px;
+
+  display: flex;
+}
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+.signup-inputs label {
+  color: var(--light-red);
+  font-size: 14px;
+  padding-left: 20px;
+}
 .email {
   width: 500px;
   padding: 12px 20px;
@@ -350,6 +362,7 @@ footer .logo {
 .location {
   width: 350px;
   display: flex;
+  margin-bottom: 25px;
 }
 .location p {
   color: var(--white);
@@ -358,6 +371,10 @@ footer .logo {
 .icon-location {
   width: 25px;
   height: 25px;
+  margin-right: 25px;
+}
+.icon-phone,
+.icon-email {
   margin-right: 25px;
 }
 
@@ -370,6 +387,12 @@ footer .logo {
 .fa-brands:hover {
   color: var(--cyan);
   border: 1px solid var(--cyan);
+}
+.contact-us li {
+  color: var(--white);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .contact-us-links li {
@@ -485,15 +508,50 @@ footer .logo {
     margin-bottom: 15px;
     font-size: 0.8rem;
   }
+  form {
+    flex-direction: column;
+  }
 
   .sign-up-description h1 {
     font-size: 1.6rem;
   }
+  .signup-inputs {
+    margin-bottom: 25px;
+  }
+  .signup-inputs label {
+    padding: 0;
+  }
   .email {
     width: 100%;
-    margin-bottom: 25px;
   }
   .submit-btn {
     width: 100%;
+  }
+
+  footer {
+    height: 120vh;
+  }
+  footer .logo {
+    width: 120px;
+    top: 120px;
+    left: 30px;
+    margin-bottom: 30px;
+  }
+  .footer-container {
+    width: 85%;
+    flex-direction: column;
+  }
+  .location p {
+    font-size: 14px;
+    line-height: 1.2rem;
+    margin-bottom: 35px;
+  }
+  .contact-us-links {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .socila-media {
+    display: flex;
+    justify-content: center;
   }
 }
